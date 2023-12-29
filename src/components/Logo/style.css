@@ -1,0 +1,32 @@
+.logo {
+    display: flex;
+    background-color:#002d32;
+    height: 100px;
+}
+
+.logo img {
+    width: 300px;
+    height: 100px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 27px;
+    min-width: 70%;
+}
+
+.cabecalho-botao button {
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-width: 1px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #73B1B2;
+    align-items: center;
+    cursor: pointer;
+}

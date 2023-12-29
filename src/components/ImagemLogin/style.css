@@ -1,0 +1,19 @@
+.imagem-login-fundo {
+    display: flex;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-grow: 0; 
+    background-size: auto; 
+}
+
+.imagem-login-logo {
+    width: 271px;
+    height: 91px;
+}
+
+.imagem-login {
+    display: flex;
+    flex-direction: row;
+    width: 33.3333333%;
+    height: 100%;
+}
