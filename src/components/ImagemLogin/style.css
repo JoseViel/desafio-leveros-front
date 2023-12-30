@@ -3,7 +3,6 @@
     flex-grow: 0;
     max-width: 100%;
     flex-grow: 0; 
-    background-size: auto; 
 }
 
 .imagem-login-logo {
@@ -16,4 +15,8 @@
     flex-direction: row;
     width: 33.3333333%;
     height: 100%;
+    background-image: url('../../images/fundo-tela-login.png'); 
+    background-position: center 0;
+    background-size: auto;
+    opacity: 0.3;
 }

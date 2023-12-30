@@ -1,5 +1,14 @@
 .App {
-    
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBECEC;
+    display: flex;
+    flex-direction: column;
+}
+
+.App-Pedidos{
+    width: 100vw;
+    height: auto;
     background-color: #EBECEC;
     display: flex;
     flex-direction: column;

@@ -4,23 +4,10 @@ import { Pedidos } from '../components/CardPedidos'
 import Vendas from '../components/CardVendas'
 import Status from '../components/CardStatus';
 
-const dataSet = [{"id":"1","numero":"100001","valor":"120.00","status":"APROVADO"},
-                 {"id":"2","numero":"100002","valor":"120.00","status":"APROVADO"},
-                 {"id":"3","numero":"100003","valor":"120.00","status":"APROVADO"},
-                 {"id":"4","numero":"100004","valor":"120.00","status":"APROVADO"},
-                 {"id":"5","numero":"100005","valor":"120.00","status":"PENDENTE"},
-                 {"id":"6","numero":"100006","valor":"120.00","status":"PENDENTE"},
-                 {"id":"7","numero":"100007","valor":"120.00","status":"PENDENTE"},
-                 {"id":"8","numero":"100008","valor":"120.00","status":"PENDENTE"},
-                 {"id":"9","numero":"100009","valor":"120.00","status":"PROCESSANDO"},
-                 {"id":"10","numero":"100010","valor":"120.00","status":"PENDENTE"},
-                 {"id":"11","numero":"100011","valor":"120.00","status":"PROCESSANDO"},
-                 {"id":"12","numero":"100012","valor":"120.00","status":"CANCELADO"},
-                 {"id":"13","numero":"100013","valor":"120.00","status":"CANCELADO"}]
-
 function Pedido() {
+
   return (
-    <div className='App'>
+    <div className='App-Pedidos'>
       <header></header>
         <Logo></Logo>
         <div className='App-geral'>
@@ -29,20 +16,19 @@ function Pedido() {
             <Vendas></Vendas>
           </div>
             <div className='App-pedidos'>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <Pedidos></Pedidos>
-              <cardList dataSet={dataSet}/>
+              <Pedidos numeroPedido={100001} statusPedido={'APROVADO'} corStatus={'#002D32'}></Pedidos>
+              <Pedidos numeroPedido={100002} statusPedido={'APROVADO'} corStatus={'#002D32'}></Pedidos>
+              <Pedidos numeroPedido={100003} statusPedido={'APROVADO'} corStatus={'#002D32'}></Pedidos>
+              <Pedidos numeroPedido={100004} statusPedido={'APROVADO'} corStatus={'#002D32'}></Pedidos>
+              <Pedidos numeroPedido={100005} statusPedido={'PENDENTE'} corStatus={'#2993CE'}></Pedidos>
+              <Pedidos numeroPedido={100006} statusPedido={'PENDENTE'} corStatus={'#2993CE'}></Pedidos>
+              <Pedidos numeroPedido={100007} statusPedido={'PENDENTE'} corStatus={'#2993CE'}></Pedidos>
+              <Pedidos numeroPedido={100008} statusPedido={'PENDENTE'} corStatus={'#2993CE'}></Pedidos>
+              <Pedidos numeroPedido={100009} statusPedido={'PROCESSANDO'} corStatus={'#FFCE00'}></Pedidos>
+              <Pedidos numeroPedido={1000010} statusPedido={'PENDENTE'} corStatus={'#2993CE'}></Pedidos>
+              <Pedidos numeroPedido={1000011} statusPedido={'PROCESSANDO'} corStatus={'#FFCE00'}></Pedidos>
+              <Pedidos numeroPedido={1000012} statusPedido={'CANCELADO'} corStatus={'#C73939'}></Pedidos>
+              <Pedidos numeroPedido={1000013} statusPedido={'CANCELADO'} corStatus={'#C73939'}></Pedidos>
             </div>
         </div>
     </div>

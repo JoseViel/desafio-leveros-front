@@ -79,7 +79,7 @@
     color: black;
     font-size: 14px;
     font-weight: 700;
-    padding-right: 52px;
+    padding-right: 50px;
 }
 
 .card-infos-value-valor {
@@ -92,5 +92,5 @@
 .card-infos-value-color {
     font-size: 14px;
     font-weight: 700;
-    color: #FFCE00;
+    padding-right: 25px;
 }

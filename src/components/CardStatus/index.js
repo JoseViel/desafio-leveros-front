@@ -1,6 +1,22 @@
 import './style.css'
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function StatusPedido(){
+
+    const [pedidosStatus, setPedidosStatus] = useState([])
+
+    useEffect(() =>{
+
+        axios.get('http://localhost:8000/pedidos/resumoStatus/')
+          .then(response => {
+            setPedidosStatus(response.data)
+            console.log(response.data)
+          })
+          .catch(error => {
+            console.log(error)
+          })
+      }, [])
 
     return(
         <div className="card-status">
