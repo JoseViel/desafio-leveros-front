@@ -30,11 +30,22 @@ function Pedidos () {
 
     }, [])
 
+    const corLetra = (status) => {
+        switch (status){
+            case 'APROVADO':
+                return '#002D32';
+            case 'PENDENTE':
+                return '#2993CE';
+            case 'PROCESSANDO':
+                return '#FFCE00';
+            case 'CANCELADO':
+                return '#C73939';
+        }
+    }
+
     return (
    
         (pedidos.map((pedido) => (
-
-        
         
         <div className='card-principal' key={pedido.id}>
             <div className='card-pedidos'>
@@ -53,7 +64,7 @@ function Pedidos () {
                     </div>
                     <div className='card-infos'>
                         <span className='card-infos-key'>Status</span>
-                        <span className='card-infos-value-color'>{pedido.status}</span>
+                        <span className='card-infos-value-color' style={{ color: corLetra (pedido.status)}}>{pedido.status}</span>
                     </div> 
                 </div>
             </div>
