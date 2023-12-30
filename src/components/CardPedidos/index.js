@@ -11,16 +11,16 @@ function Pedidos () {
                 </div>
                 <div className='card-body'>
                     <div className='card-infos'>
-                        <span>Número</span>
-                        <span>100001</span>
+                        <span className='card-infos-key'>Número</span>
+                        <span className='card-infos-value-number'>100001</span>
                     </div>
                     <div className='card-infos'>
-                        <span>Valor</span>
-                        <span>120.00</span>
+                        <span className='card-infos-key'>Valor</span>
+                        <span className='card-infos-value-valor'>R$120.00</span>
                     </div>
                     <div className='card-infos'>
-                        <span>Status</span>
-                        <span>PROCESSANDO</span>
+                        <span className='card-infos-key'>Status</span>
+                        <span className='card-infos-value-color'>PROCESSANDO</span>
                     </div> 
                 </div>
             </div>

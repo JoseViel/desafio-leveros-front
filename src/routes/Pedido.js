@@ -37,6 +37,11 @@ function Pedido() {
               <Pedidos></Pedidos>
               <Pedidos></Pedidos>
               <Pedidos></Pedidos>
+              <Pedidos></Pedidos>
+              <Pedidos></Pedidos>
+              <Pedidos></Pedidos>
+              <Pedidos></Pedidos>
+              <Pedidos></Pedidos>
               <cardList dataSet={dataSet}/>
             </div>
         </div>

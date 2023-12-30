@@ -7,24 +7,24 @@ function StatusPedido(){
             <h1>Status dos Pedidos</h1>
             <div className='card-status-metricas'>
                 <div className='card-status-numeros'>
-                    <span>1</span>
-                    <span>Processando</span>
+                    <span className='numero-amarelo'>2</span>
+                    <span className='status-pedido'>Processando</span>
                 </div>
                 <div className='card-status-numeros'>
-                    <span>1</span>
-                    <span>Pendente</span>
+                    <span className='numero-azul'>5</span>
+                    <span className='status-pedido'>Pendente</span>
                 </div>
                 <div className='card-status-numeros'>
-                    <span>1</span>
-                    <span>Aprovado</span>
+                    <span className='numero-verde'>4</span>
+                    <span className='status-pedido'>Aprovado</span>
                 </div>
                 <div className='card-status-numeros'>
-                    <span>1</span>
-                    <span>Cancelado</span>
+                    <span className='numero-vermelho'>2</span>
+                    <span className='status-pedido'>Cancelado</span>
                 </div>
                 <div className='card-status-numeros'>
-                    <span>1</span>
-                    <span>Total</span>
+                    <span className='numero-preto'>13</span>
+                    <span className='status-pedido'>Total</span>
                 </div>
             </div>
         </div>
